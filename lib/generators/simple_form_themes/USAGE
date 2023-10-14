@@ -1,0 +1,8 @@
+Description:
+    Explain the generator
+
+Example:
+    bin/rails generate simple_form_themes taildwindcss|bulma
+
+    This will create:
+        An initializer file with the style applied for a form according to the choosen CSS theme
