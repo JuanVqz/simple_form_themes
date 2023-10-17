@@ -4,5 +4,6 @@ gemspec path: '..'
 
 gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rake'
+gem 'simple_form'
 gem 'sqlite3'
 gem 'tzinfo'
