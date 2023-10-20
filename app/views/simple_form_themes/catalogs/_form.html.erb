@@ -1,0 +1,11 @@
+<%= simple_form_for(catalog) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :description, as: :text %>
+    <%= f.input :active, as: :boolean %>
+    <%= f.input :scope, collection: ['clothes', 'keyboards'] %>
+    <%= f.input :year, collection: [2023] %>
+    <%= f.input :expires_at, as: :datetime %>
+    <%= f.input :color, as: :color %>
+
+    <%= f.button :submit %>
+<% end %>
