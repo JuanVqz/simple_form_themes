@@ -1,0 +1,20 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Cars
+  description: Best cars ever
+  active: false
+  scope: 1
+  year: 2024
+  expires_at: 2024-10-20 21:42:15
+  color: "#FF0000"
+
+two:
+  name: Clothes
+  description: Best clothes ever
+  active: false
+  scope: 1
+  year: 2023
+  expires_at: 2023-10-20 21:42:15
+  color: MyString
+  color: "#808080"
