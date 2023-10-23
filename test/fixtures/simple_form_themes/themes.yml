@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  repository: MyString
+  website: MyString
+  authors: MyString
+  released: 2023-10-21
+  last_commit: 2023-10-21 16:53:57
+  platform: 1
+  downloads: 1
+
+two:
+  name: MyString
+  description: MyText
+  repository: MyString
+  website: MyString
+  authors: MyString
+  released: 2023-10-21
+  last_commit: 2023-10-21 16:53:57
+  platform: 1
+  downloads: 1
