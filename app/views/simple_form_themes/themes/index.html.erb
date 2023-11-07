@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Themes</h1>
+
+<div id="themes">
+  <% @themes.each do |theme| %>
+    <%= render theme %>
+    <p>
+      <%= link_to "Show this theme", theme %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Tailwind CSS", new_theme_path(theme: :tailwindcss) %>
+<br/>
+<%= link_to "Default CSS", new_theme_path(theme: :application) %>

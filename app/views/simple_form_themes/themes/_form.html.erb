@@ -1,0 +1,14 @@
+<%= simple_form_for(theme) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :description %>
+  <%= f.input :repository %>
+  <%= f.input :website %>
+  <%= f.input :authors %>
+  <%= f.input :released %>
+  <%= f.input :last_commit %>
+  <%= f.input :platform %>
+  <%= f.input :downloads %>
+
+  <%= f.button :submit %>
+  <%= link_to :Back, :themes, class: "underline text-gray-900 dark:text-white" %>
+<% end %>
